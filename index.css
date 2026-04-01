@@ -1,0 +1,18 @@
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.5);
+  border: 1px solid rgba(255, 0, 255, 0.3);
+  padding: 20px;
+}
+
+h1 {
+  color: #d5006d;
+  text-shadow: 0 0 10px #d5006d, 0 0 20px #d5006d;
+}
+
+p {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+}
