@@ -1,0 +1,36 @@
+.body {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.card h1, .card h2, .card h3 {
+  color: #a100ff;
+}
+
+.button {
+  background: linear-gradient(90deg, rgba(164, 0, 255, 1) 0%, rgba(0, 200, 255, 1) 100%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, rgba(0, 200, 255, 1) 0%, rgba(164, 0, 255, 1) 100%);
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+}
