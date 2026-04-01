@@ -1,0 +1,64 @@
+.sticker-generator {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.text-input {
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px solid #d500ff;
+    border-radius: 12px;
+    background: rgba(255, 0, 255, 0.1);
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.text-input:focus {
+    border-color: #ff00ff;
+    background: rgba(255, 0, 255, 0.15);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.6);
+    transform: scale(1.02);
+}
+
+.generate-button {
+    width: 100%;
+    padding: 16px 30px;
+    background: linear-gradient(135deg, #d500ff 0%, #ff00ff 50%, #d500ff 100%);
+    border: 2px solid #ff00ff;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.6);
+}
+
+.generate-button:hover:not(:disabled) {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.8);
+}
+
+.sticker-image {
+    max-width: 100%;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid #d500ff;
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
+}
+
+.download-button {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #00d4ff 0%, #0099ff 50%, #00d4ff 100%);
+    border: 2px solid #00d4ff;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
