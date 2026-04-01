@@ -1,0 +1,49 @@
+.sticker-generator {
+  background: rgba(50, 50, 50, 0.8);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.sticker-generator input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 0, 255, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.sticker-generator input:focus {
+  border-color: rgba(255, 0, 255, 1);
+  outline: none;
+  animation: glow 1s infinite alternate;
+}
+
+.sticker-generator button {
+  background: linear-gradient(45deg, rgba(255, 0, 255, 1), rgba(0, 0, 255, 1));
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.sticker-generator button:hover {
+  background: linear-gradient(45deg, rgba(255, 0, 255, 1), rgba(0, 255, 255, 1));
+  transform: translateY(-2px);
+}
+
+@keyframes glow {
+  from {
+    border-color: rgba(255, 0, 255, 0.5);
+  }
+  to {
+    border-color: rgba(255, 0, 255, 1);
+  }
+}
